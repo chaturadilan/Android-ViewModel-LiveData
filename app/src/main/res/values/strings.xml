@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ViewModelLiveData</string>
+    <string name="message">%s, Earth is rotating around the sun, your age is now %d</string>
+</resources>
