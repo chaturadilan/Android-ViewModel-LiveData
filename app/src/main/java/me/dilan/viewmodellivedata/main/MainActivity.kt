@@ -1,7 +1,8 @@
-package me.dilan.viewmodellivedata
+package me.dilan.viewmodellivedata.main
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import me.dilan.viewmodellivedata.R
 
 class MainActivity : AppCompatActivity() {
 
@@ -13,5 +14,6 @@ class MainActivity : AppCompatActivity() {
             supportFragmentManager.beginTransaction().replace(R.id.layoutRoot, MainFragment.newInstance())
                     .commitNow()
         }
+
     }
 }

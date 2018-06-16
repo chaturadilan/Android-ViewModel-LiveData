@@ -1,11 +1,11 @@
-package me.dilan.viewmodellivedata
+package me.dilan.viewmodellivedata.main
 
 import android.arch.lifecycle.MutableLiveData
 import android.arch.lifecycle.ViewModel
 
 class UserViewModel : ViewModel() {
 
-    var user: MutableLiveData<User> = MutableLiveData()
+    val user: MutableLiveData<User> = MutableLiveData()
     private var timerStarted: Boolean = false
 
     fun startLifeTimer() {
